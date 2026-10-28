@@ -33,7 +33,7 @@ int main()
     }
 
     int it = 0;
-    for(int i = 0;i<n;i++){
+    for(int i = 0;i<s.size();i++){
         for(int j = 0;j<s[i];j++){
             vec[it] = (i + LL);
             it++;
